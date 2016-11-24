@@ -1,0 +1,11 @@
+{
+  "libs": [
+    "net",
+    "chai",
+    "chai-as-promised",
+    "mocha"
+  ],
+  "plugins": {
+    "node": {}
+  }
+}
