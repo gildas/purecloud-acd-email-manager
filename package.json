@@ -21,5 +21,29 @@
   "bugs": {
     "url": "https://github.com/gildas/purecloud-acd-email-manager/issues"
   },
-  "homepage": "https://github.com/gildas/purecloud-acd-email-manager#readme"
+  "homepage": "https://github.com/gildas/purecloud-acd-email-manager#readme",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "bower": "1.8.0",
+    "debug": "2.3.3",
+    "ejs": "2.5.2",
+    "ejs-locals": "1.0.2",
+    "express": "4.14.0",
+    "foreman": "2.0.0",
+    "moment": "2.17.0",
+    "morgan": "1.7.0",
+    "nconf": "0.8.4",
+    "purecloud_api_sdk_javascript": "0.75.8",
+    "serve-favicon": "2.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-plugin-syntax-async-functions": "6.13.0",
+    "babel-plugin-transform-async-to-generator": "6.16.0",
+    "babel-register": "6.18.0",
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "mocha": "3.1.2",
+    "supervisor": "0.12.0"
+  }
 }
