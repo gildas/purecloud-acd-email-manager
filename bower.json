@@ -1,0 +1,29 @@
+{
+  "name": "acdemailmanager",
+  "description": "ACD Email Manager",
+  "main": "app/app.js",
+  "authors": [
+    "Gildas Cherruel"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "PureCloud",
+    "Interactive",
+    "Intelligence"
+  ],
+  "homepage": "https://github.com/gildas/purecloud-acd-email-manager",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootswatch-dist": "superhero",
+    "jquery": "^3.1.1",
+    "mustache.js": "mustache#^2.3.0"
+  }
+}

@@ -4,6 +4,7 @@
   "description": "ACD Email Manager",
   "main": "app/app.js",
   "scripts": {
+    "postinstall": "bower install",
     "start": "node --harmony app/app.js",
     "test": "mocha --require babel-core/register",
     "test_ci": "supervisor --no-restart-on exit --watch app,routes,test -- mocha --require babel-core/register"

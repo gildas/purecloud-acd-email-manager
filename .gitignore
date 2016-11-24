@@ -4,6 +4,7 @@ logs
 npm-debug.log*
 
 # Runtime data
+config.json
 pids
 *.pid
 *.seed
@@ -17,6 +18,9 @@ coverage
 # nyc test coverage
 .nyc_output
 
+# map
+*.map
+
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -27,6 +31,7 @@ coverage
 build/Release
 
 # Dependency directories
+bower_components/
 node_modules
 jspm_packages
 
@@ -35,3 +40,10 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Vagrant
+.vagrant/
+
+# Misc
+tmp/
+log/
