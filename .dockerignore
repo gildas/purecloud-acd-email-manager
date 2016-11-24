@@ -1,0 +1,7 @@
+.git
+tmp
+log
+bower_components
+node_modules
+README.md
+LICENSE
